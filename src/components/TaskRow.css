@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.done,
+.pending {
+    height: 25px;
+    cursor: pointer;
+}
+
+span {
+    border: none;
+    background-color: none;
+    float: right;
+}
+
+.taskNames {
+    min-width: 280px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 2px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.taskNames:hover {
+    background-color: lightgray;
+    color:white;
+}
